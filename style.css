@@ -1,0 +1,76 @@
+@font-face 
+{
+   font-family: 'Raleway';
+        src: url('polices/Raleway-Italic-VariableFont_wght.ttf') format('Trutype');
+        src: url('polices/Raleway-VariableFont_wght.ttf') format('Truetype');
+        src: url('polices/static/Raleway-Black.ttf') format('Truetype');
+        src: url('polices/static/Raleway-BlackItalic.ttf') format('Truetype');
+        src: url('polices/static/Raleway-Bold.ttf') format('Truetype');
+        src: url('polices/static/Raleway-BoldItalic.ttf') format('Truetype');
+        src: url('polices/static/Raleway-ExtraBold.ttf') format('Truetype');
+        src: url('polices/static/Raleway-ExtraBoldItalic.ttf') format('Truetype');
+        src: url('polices/static/Raleway-Italic.ttf') format('Truetype');
+        src: url('polices/static/Raleway-Light.ttf') format('Truetype');
+        src: url('polices/static/Raleway-LightItalic.ttf') format('Truetype');
+        src: url('polices/static/Raleway-Medium.ttf') format('Truetype');
+        src: url('polices/static/Raleway-MediumItalic.ttf') format('Truetype');
+        src: url('polices/static/Raleway-Regular.ttf') format('Truetype');
+        src: url('polices/static/Raleway-SemiBold.ttf') format('Truetype');
+        src: url('polices/static/Raleway-SemiBoldItalic.ttf') format('Truetype');
+        src: url('polices/static/Raleway-Thin.ttf') format('Truetype');
+        src: url('polices/static/Raleway-ThinItalic.ttf') format('Truetype');
+    font-size: 20px;
+    font-weight: normal;
+}
+
+/** HEADER  **/
+
+.menu
+{
+    display: flex;
+}
+
+.listmenu
+{
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-right: 8px;
+}
+
+.listelement
+{
+    width: 200px;
+    margin-top: -24px;
+    padding: 40px 0px 0px 0px;
+    font-size: 1.4em;
+}
+
+.listelement:hover
+{   
+    border-top: 2px solid #0065FC; 
+}
+
+.linkmenu:hover
+{
+    color: #0065FC;
+}
+
+.btnregistration
+{
+    font-family: "Ralewaybold";
+    color: #0065FC;
+    padding-left: 15px;
+    padding-top: 32px;
+}
+
+
+
+/** IMAGES **/
+
+
+/** SECTION *//
+
+
+/** FOOTER **/
