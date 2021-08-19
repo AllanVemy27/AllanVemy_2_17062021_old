@@ -82,7 +82,7 @@ nav ul{
     margin-right: 20px;
 }
 
-.navigation_links{
+.liens_navigation{
     border: 2px solid transparent;
     font-size: 1.2em;
     padding-top: 28px;
@@ -91,33 +91,33 @@ nav ul{
     margin-right: 50px;
 }
 
-.navigation_links:hover{
+.liens_navigation:hover{
     color: #0065FC;
     border-top-color: #0065FC;
 }
 
-.register_link{
+.inscription{
     color: #0065fc;
     font-size: 1.2em;
     font-weight: 600;
 }
 
-.register_link:hover{
+.inscription:hover{
     color: #0065fc67;
     transition: ease 0.3s;
 }
 
-/* Search area */
-.search_area_container{
+/* Zone de recherche */
+.zone_recherche_container{
     margin-top: 50px;
 }
 
-.search_area{
+.zone_recherche{
     display: flex;
     margin-top: 50px;
 }
 
-.search_area_icon{
+.zone_recherche_icon{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -128,7 +128,7 @@ nav ul{
     border-radius: 15px 0px 0px 15px;
 }
 
-.search_area_input{
+.zone_recherche_input{
     height: 50px;
     width: 100%;
     border: 1px solid #f2f2f2;
@@ -136,18 +136,18 @@ nav ul{
     font-size: 1em;
 }
 
-.search_area_input::placeholder{
+.zone_recherche_input::placeholder{
     color: black;
     font-weight: 600;
     border-color: #f2f2f2;
 }
 
-.search_area_input:focus{
+.zone_recherche_input:focus{
     border-color: #0065fc;
     outline: #0065fc;
 }
 
-.research_area_button_text{
+.recherche_boutton_text{
     background-color: #0065fc;
     border-radius: 0px 15px 15px 0px;
     border: none;
@@ -159,7 +159,7 @@ nav ul{
     cursor: pointer;
 }
 
-.research_area_button_icon{
+.boutton_recherche_icon{
     visibility: hidden;
     background-color: #0065fc;
     border-radius: 0px 15px 15px 0px;
@@ -172,40 +172,40 @@ nav ul{
     cursor: pointer;
 }
 
-.research_area_button_text:hover{
+.recherche_boutton_text:hover{
     background-color: #f2f2f2;
     color: #0065FC;
     transition: ease 0.3s;
 }
 
-.research_area_button_icon:hover{
+.boutton_recherche_icon:hover{
     background-color: #f2f2f2;
     color: #0065FC;
     transition: ease 0.3s;
 }
 
 /* Search area filters */
-.search_area_filters{
+.search_filters{
     display: flex;
     align-items: center;
     margin-top: 35px;
 }
 
-.search_area_filters span{
+.search_filters span{
     font-size: 1.2em;
     font-weight: 700;
 }
 
-.search_area_filters_list_one{
+.search_filters_list_one{
     display: flex;
 }
 
-.search_area_filters_list_two{
+.search_filters_list_two{
     display: flex;
     margin-left: -35px;
 }
 
-.search_area_filters_list_one i{
+.search_filters_list_one i{
     color: #0065FC;
     background-color: #DEEBFF;
     border-radius: 50%;
@@ -213,7 +213,7 @@ nav ul{
     margin-right: 10px;
 }
 
-.search_area_filters_list_one li{
+.search_filters_list_one li{
     font-size: 1em;
     font-weight: 600;
     border: solid 2px #f2f2f2;
@@ -222,14 +222,14 @@ nav ul{
     margin-right: 10px;
 }
 
-.search_area_filters_list_one li:hover{
+.search_filters_list_one li:hover{
     color: #0065FC;
     border: solid 2px #0065FC;
     cursor: pointer;
     transition: ease 0.3s;
 }
 
-.search_area_filters_list_two i{
+.search_filters_list_two i{
     color: #0065FC;
     background-color: #DEEBFF;
     border-radius: 50%;
@@ -237,7 +237,7 @@ nav ul{
     margin-right: 10px;
 }
 
-.search_area_filters_list_two li{
+.search_filters_list_two li{
     font-size: 1em;
     font-weight: 600;
     border: solid 2px #f2f2f2;
@@ -246,19 +246,19 @@ nav ul{
     margin-right: 10px;
 }
 
-.search_area_filters_list_two li:hover{
+.search_filters_list_two li:hover{
     color: #0065FC;
     border: solid 2px #0065FC;
     cursor: pointer;
     transition: ease 0.3s;
 }
 
-.search_area_information{
+.zone_recherche_information{
     display: flex;
     align-items: center;
 }
 
-.search_area_information i{
+.zone_recherche_information i{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -270,14 +270,14 @@ nav ul{
     margin-right: 10px;
 }
 
-/* Accommodation + Popular flex direction */
-.accommodation_popular_container{
+/* Hébergements + flex direction */
+.hebergements_popular_container{
     display: flex;
     justify-content: space-between;
 }
 
-/* Accommodation */
-.accommodation_container{
+/* hebergements */
+.hebergements_container{
     background-color: #f2f2f2;
     border-radius: 25px;
     margin-top: 25px;
@@ -286,21 +286,21 @@ nav ul{
     padding-right: 25px; 
 }
 
-#accommodation{
+#hebergements{
     margin-left: 25px;
     margin-bottom: 35px;
 }
 
-.accommodation_thumbnails_top{
+.hebergements_thumbnails_top{
     display: flex;
 }
 
-.accommodation_thumbnails_bottom{
+.hebergements_thumbnails_bottom{
     display: flex;
     padding-bottom: 15px;
 }
 
-.accommodation_thumbails_box{
+.hebergements_thumbails_box{
     background-color: white;
     border-radius: 25px;
     padding: 7px 7px 7px 7px;
@@ -309,48 +309,48 @@ nav ul{
     margin-left: 25px;
 }
 
-.accommodation_thumbails_box:hover{
+.hebergements_thumbails_box:hover{
     transform: scale(1.05);
     transition: ease 0.3s;
 }
 
-.accommodation_thumbails_box img{
+.hebergements_thumbails_box img{
     height: 180px;
     object-fit: cover;
     border-radius: 15px 15px 0px 0px;
 }
 
-.accommodation_thumbails_box h3{
+.hebergements_thumbails_box h3{
     font-size: 0.9em;
     font-weight: 600;
     margin-top: 5px;
     margin-left: 3px;
 }
 
-.accommodation_thumbails_box p{
+.hebergements_thumbails_box p{
     font-size: 0.8em;
     margin-left: 3px;
     margin-top: -10px;
 }
 
-.accommodation_thumbails_box_stars{
+.hebergements_thumbails_box_stars{
     color: #0065fc;
     font-size: 0.9em;
     margin-left: 3px;
     margin-top: -5px;
 }
 
-.accommodation_thumbails_box_stars_empty{
+.hebergements_thumbails_box_stars_empty{
     color: #f2f2f2;
 }
 
-.accommodation_thumbnails_link{
+.hebergements_thumbnails_link{
     font-weight: 600;
     font-size: 1.1em;
     margin-left: 25px;
 }
 
-.accommodation_thumbnails_link:hover{
+.hebergements_thumbnails_link:hover{
     color: rgba(0, 0, 0, 0.350);
     transition: ease 0.3s;
 }
