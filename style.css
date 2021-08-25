@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: Raleway;
-    src: url('polices/Raleway-Italic-VariableFont_wght.ttf;') format(Truetype);
+    src: url('polices/Raleway-Italic-VariableFont_wght.ttf;');
     src: url(polices/Raleway-VariableFont_wght.ttf) format(Truetype);
     src: url('polices/static/Raleway-Black.ttf') format(Truetype) ;
     src: url('polices/static/Raleway-BlackItalic.ttf');
@@ -34,7 +34,16 @@ body{
     justify-content: center;
 }
 
+h2 {
+    font-family: "Raleway-ExtraBold";
+}
+
+p{
+    font-family: "Raleway-Regular";
+}
+
 a{
+    font-family: "Raleway-Regular";
     text-decoration: none;
     color: black;
 }
@@ -82,7 +91,7 @@ nav ul{
     margin-right: 20px;
 }
 
-.liens_navigation{
+.navigation_links{
     border: 2px solid transparent;
     font-size: 1.2em;
     padding-top: 28px;
@@ -91,33 +100,33 @@ nav ul{
     margin-right: 50px;
 }
 
-.liens_navigation:hover{
+.navigation_links:hover{
     color: #0065FC;
     border-top-color: #0065FC;
 }
 
-.inscription{
+.register_link{
     color: #0065fc;
     font-size: 1.2em;
     font-weight: 600;
 }
 
-.inscription:hover{
+.register_link:hover{
     color: #0065fc67;
     transition: ease 0.3s;
 }
 
-/* Zone de recherche */
-.zone_recherche_container{
+/* Search area */
+.search_area_container{
     margin-top: 50px;
 }
 
-.zone_recherche{
+.search_area{
     display: flex;
     margin-top: 50px;
 }
 
-.zone_recherche_icon{
+.search_area_icon{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -128,7 +137,7 @@ nav ul{
     border-radius: 15px 0px 0px 15px;
 }
 
-.zone_recherche_input{
+.search_area_input{
     height: 50px;
     width: 100%;
     border: 1px solid #f2f2f2;
@@ -136,18 +145,18 @@ nav ul{
     font-size: 1em;
 }
 
-.zone_recherche_input::placeholder{
+.search_area_input::placeholder{
     color: black;
     font-weight: 600;
     border-color: #f2f2f2;
 }
 
-.zone_recherche_input:focus{
+.search_area_input:focus{
     border-color: #0065fc;
     outline: #0065fc;
 }
 
-.recherche_boutton_text{
+.research_area_button_text{
     background-color: #0065fc;
     border-radius: 0px 15px 15px 0px;
     border: none;
@@ -159,7 +168,7 @@ nav ul{
     cursor: pointer;
 }
 
-.boutton_recherche_icon{
+.research_area_button_icon{
     visibility: hidden;
     background-color: #0065fc;
     border-radius: 0px 15px 15px 0px;
@@ -172,40 +181,40 @@ nav ul{
     cursor: pointer;
 }
 
-.recherche_boutton_text:hover{
+.research_area_button_text:hover{
     background-color: #f2f2f2;
     color: #0065FC;
     transition: ease 0.3s;
 }
 
-.boutton_recherche_icon:hover{
+.research_area_button_icon:hover{
     background-color: #f2f2f2;
     color: #0065FC;
     transition: ease 0.3s;
 }
 
 /* Search area filters */
-.search_filters{
+.search_area_filters{
     display: flex;
     align-items: center;
     margin-top: 35px;
 }
 
-.search_filters span{
+.search_area_filters span{
     font-size: 1.2em;
     font-weight: 700;
 }
 
-.search_filters_list_one{
+.search_area_filters_list_one{
     display: flex;
 }
 
-.search_filters_list_two{
+.search_area_filters_list_two{
     display: flex;
     margin-left: -35px;
 }
 
-.search_filters_list_one i{
+.search_area_filters_list_one i{
     color: #0065FC;
     background-color: #DEEBFF;
     border-radius: 50%;
@@ -213,7 +222,7 @@ nav ul{
     margin-right: 10px;
 }
 
-.search_filters_list_one li{
+.search_area_filters_list_one li{
     font-size: 1em;
     font-weight: 600;
     border: solid 2px #f2f2f2;
@@ -222,14 +231,14 @@ nav ul{
     margin-right: 10px;
 }
 
-.search_filters_list_one li:hover{
+.search_area_filters_list_one li:hover{
     color: #0065FC;
     border: solid 2px #0065FC;
     cursor: pointer;
     transition: ease 0.3s;
 }
 
-.search_filters_list_two i{
+.search_area_filters_list_two i{
     color: #0065FC;
     background-color: #DEEBFF;
     border-radius: 50%;
@@ -237,7 +246,7 @@ nav ul{
     margin-right: 10px;
 }
 
-.search_filters_list_two li{
+.search_area_filters_list_two li{
     font-size: 1em;
     font-weight: 600;
     border: solid 2px #f2f2f2;
@@ -246,19 +255,19 @@ nav ul{
     margin-right: 10px;
 }
 
-.search_filters_list_two li:hover{
+.search_area_filters_list_two li:hover{
     color: #0065FC;
     border: solid 2px #0065FC;
     cursor: pointer;
     transition: ease 0.3s;
 }
 
-.zone_recherche_information{
+.search_area_information{
     display: flex;
     align-items: center;
 }
 
-.zone_recherche_information i{
+.search_area_information i{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -270,14 +279,14 @@ nav ul{
     margin-right: 10px;
 }
 
-/* Hébergements + flex direction */
-.hebergements_popular_container{
+/* Accommodation + Popular flex direction */
+.accommodation_popular_container{
     display: flex;
     justify-content: space-between;
 }
 
-/* hebergements */
-.hebergements_container{
+/* Accommodation */
+.accommodation_container{
     background-color: #f2f2f2;
     border-radius: 25px;
     margin-top: 25px;
@@ -286,21 +295,21 @@ nav ul{
     padding-right: 25px; 
 }
 
-#hebergements{
+#accommodation{
     margin-left: 25px;
     margin-bottom: 35px;
 }
 
-.hebergements_thumbnails_top{
+.accommodation_thumbnails_top{
     display: flex;
 }
 
-.hebergements_thumbnails_bottom{
+.accommodation_thumbnails_bottom{
     display: flex;
     padding-bottom: 15px;
 }
 
-.hebergements_thumbails_box{
+.accommodation_thumbails_box{
     background-color: white;
     border-radius: 25px;
     padding: 7px 7px 7px 7px;
@@ -309,48 +318,48 @@ nav ul{
     margin-left: 25px;
 }
 
-.hebergements_thumbails_box:hover{
+.accommodation_thumbails_box:hover{
     transform: scale(1.05);
     transition: ease 0.3s;
 }
 
-.hebergements_thumbails_box img{
+.accommodation_thumbails_box img{
     height: 180px;
     object-fit: cover;
     border-radius: 15px 15px 0px 0px;
 }
 
-.hebergements_thumbails_box h3{
+.accommodation_thumbails_box h3{
     font-size: 0.9em;
     font-weight: 600;
     margin-top: 5px;
     margin-left: 3px;
 }
 
-.hebergements_thumbails_box p{
+.accommodation_thumbails_box p{
     font-size: 0.8em;
     margin-left: 3px;
     margin-top: -10px;
 }
 
-.hebergements_thumbails_box_stars{
+.accommodation_thumbails_box_stars{
     color: #0065fc;
     font-size: 0.9em;
     margin-left: 3px;
     margin-top: -5px;
 }
 
-.hebergements_thumbails_box_stars_empty{
+.accommodation_thumbails_box_stars_empty{
     color: #f2f2f2;
 }
 
-.hebergements_thumbnails_link{
+.accommodation_thumbnails_link{
     font-weight: 600;
     font-size: 1.1em;
     margin-left: 25px;
 }
 
-.hebergements_thumbnails_link:hover{
+.accommodation_thumbnails_link:hover{
     color: rgba(0, 0, 0, 0.350);
     transition: ease 0.3s;
 }
